@@ -1,6 +1,6 @@
 import FWCore.ParameterSet.Config as cms
 
-pfEGammaToCandidateRemapper = cms.EDProducer("PFEGammaToCandidate",
+pfeGammaToCandidate = cms.EDProducer("PFEGammaToCandidate",
     electrons = cms.InputTag("electrons"),
     photons = cms.InputTag("photons"),
     #electron2pf = cms.InputTag("particleBasedIsolation","gedGsfElectrons"), 
